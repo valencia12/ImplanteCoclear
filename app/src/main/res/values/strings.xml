@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">taller5</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register">Register</string>
+    <string name="sign_in">sign in</string>
+    <string name="implante_coclear">Implante coclear</string>
+    <string name="title">AppCoclear</string>
+    <string name="done">Done</string>
+</resources>
