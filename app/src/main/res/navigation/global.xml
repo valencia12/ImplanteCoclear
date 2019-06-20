@@ -16,6 +16,11 @@
                 app:destination="@id/segundoFragment"
                 app:enterAnim="@anim/nav_default_enter_anim"
                 app:exitAnim="@anim/nav_default_exit_anim"/>
+        <action android:id="@+id/action_primerFragment_to_segundoFragment" app:destination="@id/segundoFragment"/>
+        <action android:id="@+id/action_primerFragment_to_tercerFragment" app:destination="@id/tercerFragment"/>
+        <action android:id="@+id/action_primerFragment_to_segundoFragment2" app:destination="@id/segundoFragment"/>
+        <action android:id="@+id/action_primerFragment_to_segundoFragment3" app:destination="@id/segundoFragment"/>
+        <action android:id="@+id/action_primerFragment_to_tercerFragment2" app:destination="@id/tercerFragment"/>
     </fragment>
 
     <fragment
@@ -23,11 +28,8 @@
             android:name="com.example.proyect.SegundoFragment"
             android:label="fragment_segundo"
             tools:layout="@layout/fragment_segundo">
-        <action
-                android:id="@+id/actionNext"
-                app:destination="@id/tercerFragment"
-                app:enterAnim="@anim/nav_default_enter_anim"
-                app:exitAnim="@anim/nav_default_exit_anim"/>
+        <action android:id="@+id/action_segundoFragment_to_primerFragment" app:destination="@id/primerFragment"/>
+        <action android:id="@+id/action_segundoFragment_to_primerFragment2" app:destination="@id/primerFragment"/>
     </fragment>
 
     <fragment
@@ -56,6 +58,8 @@
                 app:destination="@id/cuartoFragment"
                 app:enterAnim="@anim/nav_default_enter_anim"
                 app:exitAnim="@anim/nav_default_exit_anim"/>
+        <action android:id="@+id/action_tercerFragment_to_primerFragment" app:destination="@id/primerFragment"/>
+        <action android:id="@+id/action_tercerFragment_to_primerFragment2" app:destination="@id/primerFragment"/>
     </fragment>
 
 </navigation>

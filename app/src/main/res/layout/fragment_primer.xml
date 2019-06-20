@@ -29,7 +29,7 @@
             android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintVertical_bias="0.916"/>
     <Button
-            android:id="@+id/btn_"
+            android:id="@+id/btn_4"
             android:text="@string/sign_in"
             android:background="@color/btn1"
             android:layout_width="wrap_content"

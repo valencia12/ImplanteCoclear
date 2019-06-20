@@ -8,4 +8,13 @@
     <string name="implante_coclear">Implante coclear</string>
     <string name="title">AppCoclear</string>
     <string name="done">Done</string>
+    <string name="join_appcoclear">Join AppCoclear</string>
+    <string name="first_name">first name</string>
+    <string name="last_name">last name</string>
+    <string name="first_name1">First name</string>
+    <string name="last_name1">Last name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+
 </resources>
